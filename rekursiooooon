@@ -1,0 +1,9 @@
+//In Gedenken an Chris der lebt
+client.on("message", (message) => {
+  //if(message.author.bot) return;
+	i = 0;
+	if(message.content === "Chris")
+			while(i<2){
+				message.channel.send("Hallo") & i++
+			}
+});
