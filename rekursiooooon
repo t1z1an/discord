@@ -4,6 +4,6 @@ client.on("message", (message) => {
 	i = 0;
 	if(message.content === "Chris")
 			while(i<2){
-				message.channel.send("Hallo") & i++
+				message.channel.send("Chris") & i++
 			}
 });
